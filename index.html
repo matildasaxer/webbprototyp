@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Univerity Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu"></i>
+          <ul>
+            <li><a href="">Startsida</a></li>
+            <li><a href="kalender.html">Månadeschema</a></li>
+            <li><a href="">Dagensschema</a></li>
+            <li><a href="loggbok.html">Loggbok</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Hur mår du idag?</h1>
+        <p></p>
+        <a href="" class="hero-btn"> Skriv din logg här</a>
+      </div>
+    </section>
+    <section class="Course">
+      <h1>Ta hjälp</h1>
+      <p>
+        Det finns alltid hjälp att få, här finns lite tips för att motverka
+        stress
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Struktur</h3>
+          <p>sGör ett tydligt schema så du kan strukturera upp din vardag</p>
+        </div>
+        <div class="course-col">
+          <h3>Vid akut hjälp</h3>
+          <p>Kontakta psykolog, på 000-000 00 00</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+      }
+    </script>
+  </body>
+</html>

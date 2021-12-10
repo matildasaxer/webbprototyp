@@ -1,0 +1,55 @@
+body {
+    background: white;
+  }
+  .loggbok {
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+  }
+  .dag {
+    text-align: center;
+    background: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: black;
+  }
+  
+  th {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid white;
+    font-family: bold;
+  }
+  
+  table,
+  td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 5px solid white;
+  }
+  tr,
+  th,
+  td {
+    padding: 15px;
+  }
+  th {
+    background: #5592e2;
+    color: white;
+    font-family: bold;
+  }
+  td {
+    background: #23358a;
+    color: white;
+  }
+  td:hover {
+    background: #5592e2;
+  }
+  
